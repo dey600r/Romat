@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@src/*": ["src/*"],
+      "@app/*": ["src/app/*"],
+      "@environment/*": ["src/environments/*"],
+      "@services/*": ["src/app/core/services/*"],
+      "@models/*": ["src/app/core/models/*"],
+      "@utils/*": ["src/app/core/utils/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@pages/*": ["src/app/pages/*"],
+      "@components/*": ["src/app/shared/components/*"],
+      "@modules/*": ["src/app/shared/modules/*"],
+      "@testing/*": ["src/testing/*"]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}

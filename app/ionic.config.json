@@ -1,0 +1,7 @@
+{
+  "name": "Romat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
